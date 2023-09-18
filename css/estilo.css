@@ -1,0 +1,117 @@
+/*reset da pagina*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav ul{
+    background-image:linear-gradient(to right,  aqua, purple) ;
+    list-style: none;
+    display: flex;
+    gap:2rem;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    align-items: center;
+    box-shadow: 0px 2px rgba(134, 31, 31, 0.1);
+}
+nav ul li a{
+    font-size:20px;
+    color:#000;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+}
+nav ul li a:hover{
+    background-color: aquamarine;
+    color:red;
+    padding: 5px;
+}
+
+section{
+    height: 500px;
+    padding-top: 3rem;
+}
+#sobre{
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    background-image:url(../img/img1.jpg) ;
+    
+}
+
+.card{
+    width:250px;
+    height: 350px;
+    background-color: #c0c0c0;
+    margin-top: 70px;
+    margin-left: 150px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.card:hover{
+    background-color: #a3e9f2;
+    color:black
+}
+
+.card img{
+    width: 50%;
+    height: auto;
+}
+.card h3{
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card button{
+    display: block;
+    margin: 10px 70px;
+    background-color: green;
+    color:black;
+    border-radius: 20%;
+    cursor:pointer;
+    width: 90px;
+    height: 50px;
+}
+.card button:hover{
+    background-color: blue;
+    color:white;
+}
+
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color:#8B0000;
+    margin-top: 40px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+#historia{
+    color: blue;
+}
+#contato{
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to right, aqua, purple);
+}
+#rodape{
+
+    color:#000;
+    text-align: center;
+
+}
